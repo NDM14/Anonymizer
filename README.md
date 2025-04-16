@@ -1,4 +1,5 @@
 Usage:
+!!! Either column (-c) or remove (-r) option is required 
 ```
 usage: anonymizer.py [-h] -f FILE [-c COLUMN] [-r REMOVE] [-d DELIMITER] [-o OUTPUT]
 
