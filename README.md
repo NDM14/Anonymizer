@@ -1,5 +1,5 @@
-Usage:
-!!! Either column (-c) or remove (-r) option is required 
+Usage:<br>
+!!! Either column (-c) or remove (-r) option is required !!!
 ```
 usage: anonymizer.py [-h] -f FILE [-c COLUMN] [-r REMOVE] [-d DELIMITER] [-o OUTPUT]
 
@@ -11,7 +11,7 @@ options:
   -c COLUMN, --column COLUMN
                         Column to anonymize.
   -r REMOVE, --remove REMOVE
-                        Remove all values from the column.
+                        Remove all values from the column and replaces them with '-'.
   -d DELIMITER, --delimiter DELIMITER
                         CSV delimiter.
   -o OUTPUT, --output OUTPUT
