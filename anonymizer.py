@@ -6,7 +6,7 @@ from typing import Optional
 
 
 class Anonymizer:
-    def __init__(self):
+    def __init__(self) -> None:
         args = self.parse_args()
         self.anonymize_data(
             filename=args.file,
@@ -73,7 +73,10 @@ class Anonymizer:
         )
         parser.add_argument("-c", "--column", type=str, help="Column to anonymize.")
         parser.add_argument(
-            "-r", "--remove", type=str, help="Remove all values from the column."
+            "-r",
+            "--remove",
+            type=str,
+            help="Remove all values from the column and replaces them with '-'.",
         )
         parser.add_argument(
             "-d", "--delimiter", type=str, default=";", help="CSV delimiter."
