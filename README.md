@@ -1,5 +1,5 @@
 Usage:
-'''
+```
 usage: anonymizer.py [-h] -f FILE [-c COLUMN] [-r REMOVE] [-d DELIMITER] [-o OUTPUT]
 
 Anonymize contract data.
@@ -15,4 +15,4 @@ options:
                         CSV delimiter.
   -o OUTPUT, --output OUTPUT
                         Output file path for the anonymized data.
-'''
+```
